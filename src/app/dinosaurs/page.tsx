@@ -1,7 +1,5 @@
 'use client';
 
-import Link from 'next/link';
-import Image from 'next/image';
 import { useEffect } from 'react';
 
 export default function DinosaurPage() {
@@ -34,7 +32,7 @@ export default function DinosaurPage() {
       <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden p-6 md:p-8">
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 hover:scale-105 transition-transform duration-300">
-            Abdias' AWESOME Dinosaur Facts!
+            Abdias&apos; AWESOME Dinosaur Facts!
           </h1>
           <div className="flex justify-center mb-6">
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-orange-400 rounded-full"></div>
@@ -91,7 +89,7 @@ export default function DinosaurPage() {
           
           <div className="reveal delay-500 bg-pink-100 p-6 rounded-2xl border-4 border-pink-300 shadow-md transition-all duration-300 hover:shadow-xl hover:scale-[1.01]">
             <h2 className="text-2xl font-bold text-pink-700 mb-4">Amazing Dinosaur History! <span className="inline-block animate-[pulse_2s_ease-in-out_infinite]">📚</span></h2>
-            <p className="text-lg mb-3">Through the years, various civilizations have created drawings of animals of all kinds—including many that resemble today's dinosaur fossils.</p>
+            <p className="text-lg mb-3">Through the years, various civilizations have created drawings of animals of all kinds—including many that resemble today&apos;s dinosaur fossils.</p>
             
             <div className="bg-white p-5 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
               <h3 className="text-xl font-bold text-teal-600 mb-3">For example:</h3>
@@ -113,11 +111,11 @@ export default function DinosaurPage() {
           </div>
           
           <div className="reveal bg-indigo-100 p-6 rounded-2xl border-4 border-indigo-300 shadow-md transform -rotate-1 transition-all duration-300 hover:-rotate-2 hover:shadow-xl hover:scale-[1.02]">
-            <p className="text-xl font-bold text-indigo-700">Lastly, could it be that dinosaurs haven't gone completely extinct? While we can't confirm this, we do know that they aren't 66 million years old!</p>
+            <p className="text-xl font-bold text-indigo-700">Lastly, could it be that dinosaurs haven&apos;t gone completely extinct? While we can&apos;t confirm this, we do know that they aren&apos;t 66 million years old!</p>
           </div>
           
           <div className="reveal mt-12 text-center">
-            <p className="text-xl font-bold text-purple-800 mb-2">If you'd like to learn more, visit:</p>
+            <p className="text-xl font-bold text-purple-800 mb-2">If you&apos;d like to learn more, visit:</p>
             <a 
               href="http://www.abdiasurbina.com/dinosaurs" 
               className="inline-block bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold py-3 px-8 rounded-full text-xl hover:shadow-2xl transform transition duration-300 hover:-translate-y-2 hover:scale-105 animate-[pulse_2s_ease-in-out_infinite]"
