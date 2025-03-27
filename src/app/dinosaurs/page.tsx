@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import { Analytics } from "@vercel/analytics/react";
 
 export default function DinosaurPage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -151,10 +152,10 @@ export default function DinosaurPage() {
       before:content-[''] before:absolute before:inset-0 before:bg-gradient-to-b before:from-amber-100 before:via-cyan-50 before:to-indigo-100 before:opacity-90 before:z-[-1]">
       {/* Decorative elements */}
       <div className="absolute top-10 left-5 md:left-20 w-24 h-24 md:w-32 md:h-32 animate-float-slow opacity-70 z-0">
-        <Image src="/images/dino-footprint.png" alt="Dinosaur footprint" fill className="object-contain" />
+        <span className="text-6xl md:text-8xl absolute inset-0 flex items-center justify-center">🦖</span>
       </div>
       <div className="absolute bottom-10 right-5 md:right-20 w-24 h-24 md:w-40 md:h-40 animate-float-medium opacity-70 rotate-12 z-0">
-        <Image src="/images/dino-silhouette.png" alt="Dinosaur silhouette" fill className="object-contain" />
+        <span className="text-7xl md:text-9xl absolute inset-0 flex items-center justify-center">🦕</span>
       </div>
 
       <div className="max-w-4xl mx-auto bg-gradient-to-br from-yellow-50 to-white backdrop-blur-sm rounded-3xl shadow-xl overflow-hidden p-6 md:p-8 border-4 border-yellow-400 relative z-10">
@@ -260,6 +261,9 @@ export default function DinosaurPage() {
           </div>
         </div>
       </div>
+      
+      {/* Add Vercel Analytics */}
+      <Analytics />
     </div>
   );
 } 
